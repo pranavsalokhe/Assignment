@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Column 1"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:id="@+id/column1"/>
+    
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:hint="Column2"
+        android:textColorHint="@color/white"
+        android:layout_toRightOf="@id/column1"
+        android:layout_marginTop="10dp"/>
+    
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Column 1 and 2"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/column1"
+        android:textColorHint="@color/black"
+        android:id="@+id/edittext"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Column 1"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:id="@+id/text2"
+        android:layout_below="@id/edittext"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="20dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:hint="Column2"
+        android:layout_toRightOf="@id/text2"
+        android:layout_below="@id/edittext"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="5dp"
+        android:textColorHint="@color/white"
+        android:id="@+id/column2"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:hint="Column3"
+        android:textColorHint="@color/white"
+        android:layout_toRightOf="@id/column2"
+        android:layout_below="@id/edittext"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="8dp"/>
+
+
+</RelativeLayout>
